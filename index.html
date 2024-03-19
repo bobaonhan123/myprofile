@@ -1,68 +1,122 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Hồ Sỹ Bảo Nhân</title>
-<style type="text/css">
-    img
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top:25px;
-        margin-bottom:25px;
-        clip-path: circle(50px at 50% 50%);
-    }
-    img.logo
-    {
-        display: inline;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top:0px;
-        margin-bottom:0px;
-        
-    }
-    body
-    {
-        background-image: url('Rs4nx.jpg');
-    }
-    h1.name {
-        margin: auto;
-        text-align: center;
-        font-family: Helvetica;
-        link {color:white;}
-        border-style: rounded;
-        height: 100px;
-        padding: 10 px;
-        font-size: 100px;
-        color:white;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ Sỹ Bảo Nhân</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        a:link, a:visited {
-  background-color: #5873ee;
-  color: white;
-  padding: 50px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-family: Helvetica;
-  border-radius: 15px;
-  font-size: 50px;
 
-}
+        img.logo {
+            display: inline;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            width: 2rem;
+            height: 2rem;
+        }
 
-a:hover, a:active {
-  background-color: rgb(21, 122, 105);
-}
-</style>
+        body {
+            background: rgb(39, 39, 39);
+        }
+
+        h1.name {
+            margin: 0 auto;
+            width: 95%;
+            text-align: center;
+            font-family: "Dosis", Helvetica;
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        a:link,
+        a:visited {
+            background-color: #464646;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-family: Helvetica;
+            border-radius: 5px;
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        a:hover,
+        a:active {
+            background-color: rgb(100, 100, 100);
+        }
+
+        .avatar {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            display: flex;
+            border-radius: 3px;
+            width: 95%;
+            padding: 0;
+            border: 0;
+            margin: 0.5rem auto;
+        }
+
+        .contact img {
+            width: 1rem;
+            height: 1rem;
+            margin: 0 0.5rem 0 0.5rem;
+        }
+
+        .contact a {
+            display: flex;
+            justify-content: center;
+            font-family: "Dosis", Helvetica;
+            transition: 500ms;
+        }
+
+        .description {
+            margin: 0 auto;
+            width: 95%;
+            text-align: center;
+            font-family: "Dosis", Helvetica;
+            font-size: 1rem;
+            color: rgba(162, 162, 162, 0.901);
+            margin-bottom: 1rem;
+        }
+    </style>
+
 </head>
+
 <body>
-    <img src="165905147_476453670178099_6486245870445247074_n.jpg" alt=“Bảo Nhân” style=“width:150px;height:150px;”>
+    <img src="165905147_476453670178099_6486245870445247074_n.jpg" alt=“Bảo Nhân” class="avatar">
     <h1 class="name">HỒ SỸ BẢO NHÂN</h1>
-    <h1></h1>
-    <h1 align="center"><a href="https://www.facebook.com/hosybaonhan" target="_blank"><img class="logo"; src="pngegg.png" alt=“Bảo Nhân” style=“width:50px;height:50px;”>hosybaonhan</a></h1> 
-    <h1 align="center"><a href="https://github.com/bobaonhan123" target="_blank"><img class="logo"; src="2048px-Octicons-mark-github.svg.png" alt=“Bảo Nhân” style=“width:50px;height:50px;”>bobaonhan123</a></h1> 
-    <h1 align="center"><a href="mailto:hosybaonhan2004@gmail.com" target="_blank"><img class="logo"; src="email.png" alt=“Bảo Nhân” style=“width:50px;height:50px;”>hosybaonhan2004@gmail.com</a></h1> 
-    <h1 align="center"><a href="https://zalo.me/0845562771" target="_blank"><img class="logo"; src="icons9-zalo.svg" alt=“Bảo Nhân” style=“width:50px;height:50px;”>0845562771</a></h1> 
-    <h1 align="center"><a href="https://www.facebook.com/bantotcoder/" target="_blank"><img class="logo"; src="btdev.png" alt=“Bảo Nhân” style=“width:50px;height:50px;”>BT Dev</a></h1> 
+    <h2 class="description">Một thằng IT biết cài win và sửa mạng</h2>
+    <h1 class="contact" align="center"><a href="https://www.facebook.com/hosybaonhan" target="_blank"><img class="logo"
+                ; src="pngegg.png" alt=“Bảo Nhân”>hosybaonhan</a></h1>
+    <h1 class="contact" align="center"><a href="https://github.com/bobaonhan123" target="_blank"><img class="logo" ;
+                src="2048px-Octicons-mark-github.svg.png" alt=“Bảo Nhân”>bobaonhan123</a></h1>
+    <h1 class="contact" align="center"><a href="mailto:hosybaonhan2004@gmail.com" target="_blank"><img class="logo" ;
+                src="email.png" alt=“Bảo Nhân”>hosybaonhan2004@gmail.com</a></h1>
+    <h1 class="contact" align="center"><a href="https://zalo.me/0845562771" target="_blank"><img class="logo" ;
+                src="icons9-zalo.svg" alt=“Bảo Nhân”>0845562771</a></h1>
+    <h1 class="contact" align="center"><a href="https://www.facebook.com/bantotcoder/" target="_blank"><img class="logo"
+                ; src="btdev.png" alt=“Bảo Nhân”>BT Dev</a></h1>
 
 </body>
+
 </html>
